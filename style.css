@@ -72,7 +72,10 @@ body.dark-mode .navbar {
     display: flex;
     gap: 25px;
 }
-
+.navbar .image img{
+    height: 50px;
+    width: 50px;
+}
 .nav-links a {
     text-decoration: none;
     color: inherit;
@@ -408,10 +411,7 @@ body.dark-mode .todo-list li {
     transition: all 0.3s ease;
     min-width: 60px;
 }
-.img{
-    height: 50px;
-    width: 50px;
-}
+
 
 .delete-btn:hover {
     background: color-mix(in srgb, var(--error-color) 90%, #000);
